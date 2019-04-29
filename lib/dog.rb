@@ -22,3 +22,15 @@ class Dog
   end
 
 end
+
+
+#LITERALLY THIS WHOLE CODE CAN BE WRITTEN 20X EASIER AS
+
+# class Dog
+# attr_reader :name, :breed
+#   def initialize(name, breed = "Mutt")
+#     @name = name
+#     @breed = breed
+#   end
+#
+# end
